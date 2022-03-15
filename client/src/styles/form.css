@@ -1,0 +1,13 @@
+#inputForm {
+    margin-right: 20px;
+    width: 70%;
+    min-width: 180px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .ui.grid.center.aligned {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+}

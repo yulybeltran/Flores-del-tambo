@@ -1,0 +1,130 @@
+.modal {
+  position: fixed;
+  background-color: rgba(32, 35, 41, 0.8);
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.containerModal {
+  height: 30rem;
+  width: 80%;
+  background-image: url(../assets/fondom.jpg);
+  border-radius: 5px;
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.containerTitle {
+  font-family: "Ruda", sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+#title {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/fondom.jpg);
+  border-radius: 5px 5px 0 0;
+  font-size: 1.6rem;
+  margin: 0;
+  box-shadow: 0 1px 5px #6f6f6f;
+}
+
+.close {
+  top: -5px;
+  right: -10px;
+  border: none;
+  background: none;
+  color: #000000;
+  font-size: 3rem;
+  position: absolute;
+  cursor: pointer;
+}
+
+.iconColor-deleted {
+  color: #d80000;
+  margin-bottom: -4px;
+  width: 36px;
+  height: 36px;
+}
+
+.iconColor-completed {
+  color: #0fa958;
+  margin-bottom: -4px;
+  width: 36px;
+  height: 36px;
+}
+
+.modalFil {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalFilter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin: auto;
+}
+
+.modalTodo {
+  margin: 10px;
+}
+
+.modalTodo--grid {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  margin: 10px;
+  justify-content: left;
+  align-items: left;
+}
+
+.modalTodo h3 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  margin: 0 10px;
+}
+
+.modalTodo button {
+  width: 36px;
+  height: 36px;
+}
+
+
+
+
+@media only screen and (min-width: 400px) {
+  #title {
+    font-size: 2rem;
+  }
+
+  .modalTodo h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .modalTodo h3 {
+    font-size: 2rem;
+  }
+}

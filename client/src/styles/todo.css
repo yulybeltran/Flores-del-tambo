@@ -1,0 +1,73 @@
+ .input-button {
+     margin-right: 50px;
+ }
+
+ input {
+     min-width: 130px;
+
+ }
+
+ .ui.grid>.row>.column {
+     padding: 0px;
+ }
+
+
+ .ui.red.button {
+     margin: 0px 20px;
+ }
+
+ h2.ui.header {
+     font-family: 'Ruda', sans-serif;
+     text-align: left;
+
+ }
+
+
+ .butons {
+     display: flex;
+ }
+
+
+ #completedTodo {
+     text-decoration: line-through;
+     color: gray
+ }
+
+ #flower-list {
+     color: #831AEE;
+     font-size: 35px;
+     margin-bottom: -8px;
+     margin-right: 10px;
+ }
+
+ .prueba {
+
+     align-items: center;
+ }
+
+ .todoItem {
+     display: grid;
+     grid-template-columns: 3fr 1fr;
+     width: 70%;
+ }
+
+ @media only screen and (max-width: 700px) {
+     h2.ui.header {
+         font-size: 20px;
+     }
+
+     .ui.grid>.row {
+         padding: 10px 0px;
+         justify-content: space-around;
+     }
+
+     .ui.red.button {
+         margin: 0px 10px;
+     }
+ }
+
+ @media only screen and (max-width: 700px) {
+     .todoItem {
+         width: 100%;
+     }
+ }

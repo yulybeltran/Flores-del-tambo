@@ -1,0 +1,16 @@
+.container {
+  background-image: url(../assets/fondo.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+  height: 100%;
+  text-align: center;
+  padding: 55px 10px;
+}
+
+.footer {
+  margin-top: 500px;
+  margin-bottom: -40px
+}
