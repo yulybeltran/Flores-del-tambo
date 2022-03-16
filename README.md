@@ -6,6 +6,7 @@ This To do App allows users to add, edit and delete tasks as well as see the who
 
 Users can also view the tasks they have completed and those they have deleted in a pop-up window.
 
+
 ## To do list
 
 ![To do app](./client/src/assets/Logoflor.png "To do App flores del Tambo")
